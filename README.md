@@ -16,6 +16,7 @@ Other files part of Raylib library
 
 ### Windows:
 
+#### Option 1:
 Download Raylib from: https://www.raylib.com/ via Windows installer
 
 Alternatively, go to https://github.com/raysan5/raylib for repository. Links to setup instructions for various platforms available
