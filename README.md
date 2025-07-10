@@ -31,6 +31,15 @@ Compilation command with GCC/G++:
 
 g++ antsim.cpp -lraylib -lopengl32 -lgdi32 -lwinmm -fopenmp -g -O2 -o antsim.exe
 
+#### Option 2:
+Download raylib-4.5.0_win64_mingw-w64.zip from https://github.com/raysan5/raylib/releases/tag/4.5.0
+
+Copy /lib to repository
+
+Compile with GCC/G++:
+
+g++ antsim.cpp -Llib -lraylib -lopengl32 -lgdi32 -lwinmm -fopenmp -g -O2 -o antsim.exe
+
 ### Mac:
 
 Download raylib-4.5.0_macos.tar.gz from https://github.com/raysan5/raylib/releases/tag/4.5.0
